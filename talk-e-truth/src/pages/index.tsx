@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Landing.module.css';
+import VoiceField from '../components/VoiceField';
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
 
         {/* HERO */}
         <section className={styles.hero}>
+          <VoiceField /> 
           <h1>
             Confidence in Public Speaking.  
             <br />
